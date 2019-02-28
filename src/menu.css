@@ -1,37 +1,59 @@
 .head{
-    height:  65px;
-}
-
-nav{
-    position:  sticky;
+    background-color:  black;
+    display: flex;
+    position: sticky;
     top: 0;
+   color:  white;
+   opacity:  0.8;
 }
 
-nav >ul{
-    background-color: #333333;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style-type: none;
-    height:  70px;
+
+.head-middle>nav>ul>li{
+    display:  inline-block;
+    margin:   0 0 0 70px;
 }
 
-nav>ul>li{
-    margin:  25px 30px 25px 30px;
-    color:  white;
-    float: left;
+
+.head-right>nav>ul>li{
+    display:  inline-block;
+    margin-left: 40px;
 }
 
 .main-logo{
-    height:  2.75vw;
+    height:  40px;
+}
+
+.head-left{
+    margin: 10px 0 10px 10px;
+}
+
+.head-middle{
+    margin:  5px 0 0 0px;
+}
+
+
+#dwnlod{
+    height:  22px;
+    vertical-align: middle;
 }
 
 .menu-logo{
-    height:  1.15vw;
-    margin:  0 10px 0 0 ;
+    height: 15px;
 }
 
-#dwnlod{
-    height:  1.5vw;
-    margin:   0 10px 0 0;
+
+.r-menu-logo{
+    height:  22px;
+    vertical-align: middle;
+}
+
+
+.r-text{
+    margin-left:  10px;
+   font-size: 14px;
+}
+
+
+.head-right{
+    margin: 3px 0 0 70px;
 }
