@@ -147,6 +147,15 @@ const Packs =() =>(
               </Carousel>
           </div>
           </div>
+        <div className='centre'>
+            <div className='centre-head'>
+                <div className='centre-t'>cult.fit centres</div>
+                <div className='centre-st'>Find a centre near you</div>
+            </div>
+            <div className='areas'>
+                    hello
+            </div>
+        </div>
       </div>
    </div>
 )
