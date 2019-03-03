@@ -105,6 +105,26 @@ const Packs =() =>(
         </div>
       </a>
       </div>
+      <div className='yt-link'>
+                <video height="423" width="873" className='vid' poster='./assets/vid.jpg'>
+                      <source src="https://s3.ap-south-1.amazonaws.com/curefit-content/video/CULTYourNewPlayground.mp4" type="video/mp4" />
+                </video>
+      </div>
+      <div className='workouts'>
+          <div className='w-title'>Choose your workouts</div>
+      </div>
+      <div className='w-logo'>
+          <img src='./assets/w1.jpg' alt='w1'/>
+          <img src='./assets/w2.jpg' alt='w2'/>
+          <img src='./assets/w3.jpg' alt='w3'/>
+          <img src='./assets/w4.jpg' alt='w4'/>
+          <img src='./assets/w5.jpg' alt='w5'/>
+          <img src='./assets/w6.jpg' alt='w6'/>
+          <img src='./assets/w7.jpg' alt='w7'/>
+          <img src='./assets/w8.jpg' alt='w8'/>
+          <img src='./assets/w9.jpg' alt='w9'/>
+
+      </div>
    </div>
 )
 
