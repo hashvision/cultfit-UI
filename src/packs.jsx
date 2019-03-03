@@ -131,7 +131,7 @@ const Packs =() =>(
           <div className='view-st'>State-of-the-art facility for all your fitness needs</div>
           </div>
           <div className='view-slider'>
-              <Carousel showArrows={false} showStatus={false} showThumbs={false} transitionTime={1000}>
+              <Carousel showArrows={false} showStatus={false} showThumbs={false} transitionTime={1000} className='carousel'>
                 <div>
                      <img src='assets/v1.jpg' alt='v1' />
                  </div>
