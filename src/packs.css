@@ -163,7 +163,7 @@
 }
 
 .vid:hover{
-    box-shadow: 0 0 10px 12px rgb(22, 19, 19);
+    box-shadow: 0 10px 25px  black;
 }
 
 .workouts{
@@ -226,7 +226,7 @@
 .view-slider{
     width: 910px;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 12%;
     border-radius: 10px;
     margin-bottom: 65px;
 }

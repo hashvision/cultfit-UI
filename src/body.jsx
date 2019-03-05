@@ -11,9 +11,6 @@ const Body = () => (
         <div>
             <img src='assets/ss2.jpg' alt='ss2' />
         </div>
-        <div>
-            <img src='assets/ss3.jpg' alt='ss3' />
-        </div>
     </Carousel>
     </div>
 )
