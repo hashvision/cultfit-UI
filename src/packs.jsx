@@ -153,7 +153,16 @@ const Packs =() =>(
                 <div className='centre-st'>Find a centre near you</div>
             </div>
             <div className='areas'>
-                    hello
+                    <div className='loc1'>Koramangala</div>
+                    <div className='loc2'>BTM Loyalty</div>
+                    <div className='loc3'>Frazer Town</div>
+                    <div className='loc4'>Bellandur</div>
+                    <div className='loc5'>Mahadevpura</div>
+                    <div className='loc6'>HSR Layout</div>
+                    <div className='loc7'>Indiranagar</div>
+                    <div className='loc8'>Jayanagar</div>
+                    <div className='loc9'>Whitefield</div>
+                    <div className='loc10'>Yelahanka</div>
             </div>
         </div>
       </div>

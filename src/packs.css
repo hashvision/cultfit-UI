@@ -168,14 +168,14 @@
 
 .workouts{
     height: 626px;
-    padding: 50px;
+    padding: 55px;
 }
 
 .w-title{
     font-size: 20px;
     color: #adbad3;
-    margin:  0 0 50px 0;
-    font-weight: 500;
+    margin:  0 0 55px 0;
+    font-weight: 600;
 }
 
 .w-logo{
@@ -204,7 +204,7 @@
 
 
 .view-head{
-    margin: 71.5px;
+    margin: 70.5px;
 }
 
 
@@ -236,3 +236,43 @@
     border-radius: 10px;
 }
 
+
+.centre{
+    height: 1264px;
+    padding: 40px;
+    background-image: url('./v1.jpg')
+}
+
+.areas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+}
+
+
+.areas>div{
+    height: 100px;
+    margin: 10px;
+}
+
+
+.loc1,.loc2,.loc3,.loc4,.loc5,.loc6,.loc7,.loc8{
+    background-image: linear-gradient(to right, #EE82EE, #BA55D3);   
+    width: 189px;
+}
+
+
+.loc9{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: linear-gradient(to right, #7fdfff, #00bfff);
+}
+  
+  
+  .loc10{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: linear-gradient(to right, #EE82EE, #BA55D3);   
+}
