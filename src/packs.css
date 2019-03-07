@@ -208,7 +208,7 @@
 }
 
 
-.view-t{
+.view-t, .centre-t{
     font-size: 21.5px;
     color: #adbad3;
     font-weight: 500;
@@ -228,7 +228,7 @@
     justify-content: center;
     margin-left: 12%;
     border-radius: 10px;
-    margin-bottom: 65px;
+    margin-bottom: 80px;
 }
 
 
@@ -238,9 +238,8 @@
 
 
 .centre{
-    height: 1264px;
-    padding: 40px;
-    background-image: url('./v1.jpg')
+    padding: 20px 0 0 0;
+    background: url('./v1.jpg') center no-repeat;
 }
 
 .areas{
@@ -248,25 +247,29 @@
     grid-template-columns: auto auto auto;
     justify-content: center;
     color: white;
-    padding: 40px;
 }
 
 
 .areas>div{
     height: 100px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 
 .loc1,.loc2,.loc3,.loc4,.loc5,.loc6,.loc7,.loc8{
-    background-image: linear-gradient(to right, #EE82EE, #BA55D3);   
-    width: 189px;
+    background-image: linear-gradient(to left, #ffd27f, #f3a7f3);   
+    width: 190px;
+    font-weight: 20px;
+    line-height: 28px;
 }
 
 
 .loc9{
     grid-column-start: 1;
     grid-column-end: 3;
+    font-weight: 20px;
+    line-height: 28px;
     background-image: linear-gradient(to right, #7fdfff, #00bfff);
 }
   
@@ -274,5 +277,12 @@
   .loc10{
     grid-column-start: 3;
     grid-column-end: 5;
+    font-weight: 20px;
+    line-height: 28px;
     background-image: linear-gradient(to right, #EE82EE, #BA55D3);   
+}
+
+
+.centre-head{
+    margin: 35px 0 35px 0;
 }
