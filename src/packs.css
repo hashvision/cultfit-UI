@@ -167,14 +167,14 @@
 }
 
 .workouts{
-    height: 626px;
-    padding: 55px;
+    height: 570px;
+    padding: 57.5px 0 0 0;
 }
 
 .w-title{
     font-size: 20px;
     color: #adbad3;
-    margin:  0 0 55px 0;
+    margin:  0 0 45px 0;
     font-weight: 600;
 }
 
@@ -196,19 +196,17 @@
 }
 
 
-
 .w-logo>img:hover{
     box-shadow: 0 10px 25px rgb(22, 19, 19);
 }
 
 
-
 .view-head{
-    margin: 70.5px;
+    margin: 50px 0 70.5px 0;
 }
 
 
-.view-t, .centre-t{
+.view-t, .centre-t, .trainer-t{
     font-size: 21.5px;
     color: #adbad3;
     font-weight: 500;
@@ -216,7 +214,7 @@
     margin-bottom: 5px;
 }
 
-.view-st{
+.view-st, .centre-st, .trainer-st{
     color: rgb(189, 189, 189);
     font-size: 13.5px;
     font-weight: 450;
@@ -225,8 +223,7 @@
 
 .view-slider{
     width: 910px;
-    justify-content: center;
-    margin-left: 12%;
+    margin-left: 15%;
     border-radius: 10px;
     margin-bottom: 80px;
 }
@@ -239,7 +236,7 @@
 
 .centre{
     padding: 20px 0 0 0;
-    background: url('./v1.jpg') center no-repeat;
+  /*  background: url('./v1.jpg'); */
 }
 
 .areas{
@@ -247,6 +244,7 @@
     grid-template-columns: auto auto auto;
     justify-content: center;
     color: white;
+    padding-bottom: 50px;
 }
 
 
@@ -254,7 +252,16 @@
     height: 100px;
     margin: 10px;
     border-radius: 10px;
+    position: relative;
+    transition:  top 0.2s linear;
+    top: 0;
 }
+
+
+.areas>div:hover{
+    top: -10px;
+}
+
 
 
 .loc1,.loc2,.loc3,.loc4,.loc5,.loc6,.loc7,.loc8{
@@ -285,4 +292,8 @@
 
 .centre-head{
     margin: 35px 0 35px 0;
+}
+
+.trainer{
+    margin-top: 52.5px;
 }

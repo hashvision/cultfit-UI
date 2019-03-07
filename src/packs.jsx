@@ -125,7 +125,8 @@ const Packs =() =>(
               <img src='./assets/w8.jpg' alt='w8'/>
               <img src='./assets/w9.jpg' alt='w9'/>
           </div>
-          <div className='view'>
+          </div>
+      <div className='view'>
           <div className='view-head'>
           <div className='view-t'>Experience the space</div>
           <div className='view-st'>State-of-the-art facility for all your fitness needs</div>
@@ -146,8 +147,8 @@ const Packs =() =>(
                  </div>
               </Carousel>
           </div>
-          </div>
-        <div className='centre'>
+    </div>
+      <div className='centre'>
             <div className='centre-head'>
                 <div className='centre-t'>cult.fit centres</div>
                 <div className='centre-st'>Find a centre near you</div>
@@ -165,8 +166,22 @@ const Packs =() =>(
                     <div className='loc10'>Yelahanka</div>
             </div>
         </div>
+      <div className='trainer'>
+           <div className='trainer-head'>
+            <div className='trainer-t'>Meet our trainers</div>
+            <div className='trainer-st'>To be the best, you have to train with the best</div>
+            </div>
+            <div className='trainer-det'>
+            <a className='profile'></a>
+            <a className='profile'></a>
+            <a className='profile'></a>
+            <a className='profile'></a>
+            <a className='profile'></a>
+            <a className='profile'></a>
+            <a className='profile'></a>
+            </div>
       </div>
-   </div>
+</div>
 )
 
 export default Packs;
