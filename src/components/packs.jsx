@@ -1,5 +1,5 @@
 import React from 'react';
-import  './packs.css';
+import  './../styles/packs.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
@@ -108,7 +108,7 @@ const Packs =() =>(
       </a>
       </div>
       <div className='yt-link'>
-                <video height="423" width="873" className='vid' poster='./assets/vid.jpg'>
+                <video height="423"  controls width="873" className='vid' poster='./assets/vid.jpg'>
                       <source src="https://s3.ap-south-1.amazonaws.com/curefit-content/video/CULTYourNewPlayground.mp4" type="video/mp4" />
                 </video>
       </div>
@@ -132,7 +132,8 @@ const Packs =() =>(
           <div className='view-st'>State-of-the-art facility for all your fitness needs</div>
           </div>
           <div className='view-slider'>
-              <Carousel showArrows={false} showStatus={false} showThumbs={false} transitionTime={1000} className='carousel'>
+              <Carousel showArrows={false} showStatus={false} showThumbs={false} className='carousel'
+              autoPlay infiniteLoop stopOnHover	 interval='2000'  transitionTime={1500}>
                 <div>
                      <img src='assets/v1.jpg' alt='v1' />
                  </div>
@@ -148,39 +149,6 @@ const Packs =() =>(
               </Carousel>
           </div>
     </div>
-      <div className='centre'>
-            <div className='centre-head'>
-                <div className='centre-t'>cult.fit centres</div>
-                <div className='centre-st'>Find a centre near you</div>
-            </div>
-            <div className='areas'>
-                    <div className='loc1'>Koramangala</div>
-                    <div className='loc2'>BTM Loyalty</div>
-                    <div className='loc3'>Frazer Town</div>
-                    <div className='loc4'>Bellandur</div>
-                    <div className='loc5'>Mahadevpura</div>
-                    <div className='loc6'>HSR Layout</div>
-                    <div className='loc7'>Indiranagar</div>
-                    <div className='loc8'>Jayanagar</div>
-                    <div className='loc9'>Whitefield</div>
-                    <div className='loc10'>Yelahanka</div>
-            </div>
-        </div>
-      <div className='trainer'>
-           <div className='trainer-head'>
-            <div className='trainer-t'>Meet our trainers</div>
-            <div className='trainer-st'>To be the best, you have to train with the best</div>
-            </div>
-            <div className='trainer-det'>
-            <a className='profile'></a>
-            <a className='profile'></a>
-            <a className='profile'></a>
-            <a className='profile'></a>
-            <a className='profile'></a>
-            <a className='profile'></a>
-            <a className='profile'></a>
-            </div>
-      </div>
 </div>
 )
 

@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 const Body = () => (
-    <div className='slider'>
+    <div className='slider' style={{marginTop: '62.5px'}}>
     <Carousel autoPlay infiniteLoop stopOnHover	 interval='5000' showArrows={false} showStatus={false} showThumbs={false} transitionTime={1500}>
        <div>
             <img src='assets/ss3.jpg' alt='ss3' />

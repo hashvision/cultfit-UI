@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import  Menubar from './Menu';
+import './../styles/App.css';
+import  Menubar from './menu';
 import Body from './body';
 import Packs from './packs';
 
