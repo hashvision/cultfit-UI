@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cultfit-UI/precache-manifest.9deccec52060614fafa25a4fc17da0f2.js"
+  "/cultfit-UI/precache-manifest.d5b620fde6d46ba18bd05c1fc2e9fe83.js"
 );
 
 workbox.clientsClaim();
