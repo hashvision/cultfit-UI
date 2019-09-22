@@ -29,7 +29,7 @@ const Packs = () => (
       </div>
     </div>
     <div className='all-packs'>
-      <a className='packs'>
+      <a href='null' className='packs'>
         <img className='pack-img' src='./assets/pack1.jpg' alt='p1' />
         <div className='price-orignal'>
           <div className='p-det'>Fitness pack at Cult</div>
@@ -41,7 +41,7 @@ const Packs = () => (
           <div className='price-val'>₹8991</div>
         </div>
       </a>
-      <a className='packs'>
+      <a href='null' className='packs'>
         <img className='pack-img' src='./assets/pack2.jpg' alt='p2' />
         <div className='price-orignal'>
           <div className='p-det'>Fitness pack at Cult</div>
@@ -53,7 +53,7 @@ const Packs = () => (
           <div className='price-val'>₹22491</div>
         </div>
       </a>
-      <a className='packs'>
+      <a href='null' className='packs'>
         <img className='pack-img' src='./assets/pack3.jpg' alt='p3' />
         <div className='price-orignal'>
           <div className='p-det'>Fitness pack at Cult</div>
@@ -65,7 +65,7 @@ const Packs = () => (
           <div className='price-val'>₹14391</div>
         </div>
       </a>
-      <a className='packs'>
+      <a href='null' className='packs'>
         <img className='pack-img' src='./assets/pack4.jpg' alt='p4' />
         <div className='price-orignal'>
           <div className='p-det'>Fitness pack at Cult</div>

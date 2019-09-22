@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/index.css';
+import { render } from 'react-dom';
 import App from './components/App';
 
-ReactDOM.render( < App / > , document.getElementById('root'));
+import './styles/index.css';
+
+render(<App />, document.getElementById('root'));

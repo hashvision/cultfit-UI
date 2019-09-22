@@ -1,6 +1,7 @@
 .head {
     background-color: black;
     display: flex;
+    align-content: space-around;
     top: 0;
     color: white;
     position: fixed;
@@ -10,16 +11,9 @@
     width: 100%;
 }
 
-
 .head-middle>nav>ul>li {
     display: inline-block;
     margin: 0 0 0 70px;
-}
-
-
-.head-right>nav>ul>li {
-    display: inline-block;
-    margin-left: 40px;
 }
 
 .main-logo {
@@ -35,32 +29,7 @@
     margin: 5px 0 0 0px;
 }
 
-
-#dwnlod {
-    height: 22px;
-    max-height: 22px;
-    vertical-align: middle;
-}
-
 .menu-logo {
     height: 15px;
     max-height: 15px;
-}
-
-
-.r-menu-logo {
-    height: 22px;
-    max-height: 22px;
-    vertical-align: middle;
-}
-
-
-.r-text {
-    margin-left: 10px;
-    font-size: 14px;
-}
-
-
-.head-right {
-    margin: 3px 0 0 5.25vw;
 }

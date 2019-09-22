@@ -1,15 +1,15 @@
 {
-  "homepage": "http://rajsagargiri.github.io/cultfit-UI",
+  "homepage": "http://therajsagar.github.io/cultfit-UI",
   "name": "cultfit",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-responsive-carousel": "^3.1.47",
-    "react-scripts": "2.1.5",
-    "react-slick": "^0.23.2",
-    "react-slideshow-image": "^1.1.2"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-responsive-carousel": "^3.1.50",
+    "react-scripts": "3.1.2",
+    "react-slick": "^0.25.2",
+    "react-slideshow-image": "^1.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,6 +29,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.1.1"
   }
 }
