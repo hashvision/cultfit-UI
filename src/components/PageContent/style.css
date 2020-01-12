@@ -184,38 +184,6 @@
   box-shadow: 0 10px 25px rgb(22, 19, 19);
 }
 
-.view-head {
-  margin: 50px 0 70.5px 0;
-}
-
-.view-t,
-.centre-t,
-.trainer-t {
-  font-size: 21.5px;
-  color: #adbad3;
-  font-weight: 500;
-  line-height: 22px;
-  margin-bottom: 5px;
-}
-
-.view-st,
-.centre-st,
-.trainer-st {
-  color: rgb(189, 189, 189);
-  font-size: 13.5px;
-  font-weight: 450;
-  line-height: 15px;
-}
-
-.view-slider {
-  position: relative;
-  width: 910px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  border-radius: 10px;
-  margin-bottom: 80px;
-}
-
 .carousel {
   border-radius: 10px;
 }

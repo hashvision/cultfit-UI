@@ -1,6 +1,6 @@
 import React from "react";
-import Carousel from "./Carousel";
-import "./../styles/menu.css";
+import Carousel from "../Carousel";
+import "./style.css";
 
 const img_url_prefix = val =>
   `https://res.cloudinary.com/www-curefit-com/image/upload/w_1440,f_auto,ar_2880:595,q_auto:eco/dpr_1/image/vm/${val}.jpg`;

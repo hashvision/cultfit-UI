@@ -1,6 +1,5 @@
 import React from "react";
-import Carousel from "./Carousel";
-import "./../styles/packs.css";
+import "./style.css";
 
 export default () => {
   const packsData = [
@@ -65,22 +64,6 @@ export default () => {
               key={k + "wx"}
             />
           ))}
-        </div>
-      </div>
-      <div className="view">
-        <div className="view-head">
-          <div className="view-t">Experience the space</div>
-          <div className="view-st">
-            State-of-the-art facility for all your fitness needs
-          </div>
-        </div>
-        <div className="view-slider">
-          <Carousel
-            list={[...Array(4).keys()].map(k => ({
-              src: `./assets/v${k + 1}.jpg`,
-              alt: `v${k + 1}`
-            }))}
-          />
         </div>
       </div>
     </>
