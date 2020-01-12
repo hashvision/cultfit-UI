@@ -1,7 +1,6 @@
 import React from "react";
-import "./../styles/packs.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from "./Carousel";
+import "./../styles/packs.css";
 
 export default () => {
   const packsData = [
@@ -12,15 +11,7 @@ export default () => {
   ];
 
   return (
-    <div>
-      <div>
-        <nav>
-          <ul>
-            <li id="c1">At Centre</li>
-            <li id="c2">At Home</li>
-          </ul>
-        </nav>
-      </div>
+    <>
       <div className="label">
         <img src="./assets/tag.svg" alt="tag" id="lbl-l" />
         <div className="lbl-text">
@@ -98,6 +89,6 @@ export default () => {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 };
