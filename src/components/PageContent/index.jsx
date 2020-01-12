@@ -28,7 +28,7 @@ export default () => {
       </div>
       <div className="all-packs">
         {packsData.map((pack, ind) => (
-          <a href="null" className="packs" key={ind}>
+          <div className="packs" key={ind}>
             <img
               className="pack-img"
               src={`./assets/pack${ind + 1}.jpg`}
@@ -43,7 +43,7 @@ export default () => {
               <div className="o-det">Offer Price:</div>
               <div className="price-val">₹{pack.val}</div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
       <div className="yt-link">
