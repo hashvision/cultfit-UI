@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e734417a84293fb6ceab8b22baf931b",
+    "revision": "d48b6ba4f71c30c65aea08c309aec99b",
     "url": "/cultfit-UI/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cultfit-UI/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "c069828a01bbfcfa644d",
+    "revision": "cbedddf4fa780efe95a0",
     "url": "/cultfit-UI/static/css/main.6c102fa1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cultfit-UI/static/js/2.bf1523f5.chunk.js"
   },
   {
-    "revision": "c069828a01bbfcfa644d",
-    "url": "/cultfit-UI/static/js/main.059231e0.chunk.js"
+    "revision": "cbedddf4fa780efe95a0",
+    "url": "/cultfit-UI/static/js/main.54657879.chunk.js"
   },
   {
     "revision": "4bf3df8191e93ed4dfe1",

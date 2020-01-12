@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cultfit-UI/precache-manifest.d1379678cca9da7959b75566c342fe91.js"
+  "/cultfit-UI/precache-manifest.25f99891620277b59df97e27f38a6ab8.js"
 );
 
 self.addEventListener('message', (event) => {

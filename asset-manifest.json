@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cultfit-UI/static/css/main.6c102fa1.chunk.css",
-    "main.js": "/cultfit-UI/static/js/main.059231e0.chunk.js",
-    "main.js.map": "/cultfit-UI/static/js/main.059231e0.chunk.js.map",
+    "main.js": "/cultfit-UI/static/js/main.54657879.chunk.js",
+    "main.js.map": "/cultfit-UI/static/js/main.54657879.chunk.js.map",
     "runtime-main.js": "/cultfit-UI/static/js/runtime-main.c1cfbe3a.js",
     "runtime-main.js.map": "/cultfit-UI/static/js/runtime-main.c1cfbe3a.js.map",
     "static/css/2.3c1ddb0a.chunk.css": "/cultfit-UI/static/css/2.3c1ddb0a.chunk.css",
     "static/js/2.bf1523f5.chunk.js": "/cultfit-UI/static/js/2.bf1523f5.chunk.js",
     "static/js/2.bf1523f5.chunk.js.map": "/cultfit-UI/static/js/2.bf1523f5.chunk.js.map",
     "index.html": "/cultfit-UI/index.html",
-    "precache-manifest.d1379678cca9da7959b75566c342fe91.js": "/cultfit-UI/precache-manifest.d1379678cca9da7959b75566c342fe91.js",
+    "precache-manifest.25f99891620277b59df97e27f38a6ab8.js": "/cultfit-UI/precache-manifest.25f99891620277b59df97e27f38a6ab8.js",
     "service-worker.js": "/cultfit-UI/service-worker.js",
     "static/css/2.3c1ddb0a.chunk.css.map": "/cultfit-UI/static/css/2.3c1ddb0a.chunk.css.map",
     "static/css/main.6c102fa1.chunk.css.map": "/cultfit-UI/static/css/main.6c102fa1.chunk.css.map"
