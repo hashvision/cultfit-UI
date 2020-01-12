@@ -1,19 +1,13 @@
-import React, { Component } from 'react';
-import './../styles/App.css';
-import Menubar from './menu';
-import Body from './body';
-import Packs from './packs';
+import React from "react";
+import "./../styles/App.css";
+import Menubar from "./Menu";
+import Body from "./Body";
+import Packs from "./Packs";
 
-class App extends Component {
-  render() {
-    return (
-      <div className='App'>
-        <Menubar />
-        <Body />
-        <Packs />
-      </div>
-    );
-  }
-}
-
-export default App;
+export default () => (
+  <div className="App">
+    <Menubar />
+    <Body />
+    <Packs />
+  </div>
+);

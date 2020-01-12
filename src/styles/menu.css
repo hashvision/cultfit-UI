@@ -1,35 +1,21 @@
 .head {
-    background-color: black;
-    display: flex;
-    align-content: space-around;
-    top: 0;
-    color: white;
-    position: fixed;
-    z-index: 999;
-    opacity: 0.725;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.head-middle>nav>ul>li {
-    display: inline-block;
-    margin: 0 0 0 70px;
-}
-
-.main-logo {
-    height: 40px;
-    max-height: 40px;
+  background-color: black;
+  display: flex;
+  align-content: space-around;
+  top: 0;
+  color: white;
+  position: fixed;
+  z-index: 999;
+  opacity: 0.725;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .head-left {
-    margin: 10px 0 10px 10px;
+  margin: 10px 0 10px 10px;
 }
 
-.head-middle {
-    margin: 5px 0 0 0px;
-}
-
-.menu-logo {
-    height: 15px;
-    max-height: 15px;
+.main-logo {
+  height: 45px;
+  max-height: 45px;
 }
