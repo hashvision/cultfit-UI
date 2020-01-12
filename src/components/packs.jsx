@@ -4,7 +4,7 @@ import "./../styles/packs.css";
 
 export default () => {
   const packsData = [
-    { mrp: 11970, val: 8991 },
+    { mrp: 33970, val: 24991 },
     { mrp: 43380, val: 22491 },
     { mrp: 22440, val: 14391 },
     { mrp: 22440, val: 15291 }
@@ -48,13 +48,7 @@ export default () => {
         ))}
       </div>
       <div className="yt-link">
-        <video
-          height="423"
-          controls
-          width="873"
-          className="vid"
-          poster="./assets/vid.jpg"
-        >
+        <video controls className="vid" poster="./assets/vid.jpg">
           <source
             src="https://s3.ap-south-1.amazonaws.com/curefit-content/video/CULTYourNewPlayground.mp4"
             type="video/mp4"

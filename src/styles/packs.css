@@ -71,13 +71,15 @@
 
 .all-packs {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
+  align-content: space-between;
   padding: 0 0 20px 0;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .packs {
-  width: 212px;
+  width: 200px;
   padding-top: 18px;
 }
 
@@ -136,13 +138,13 @@
 
 .yt-link {
   height: 543px;
-  background-color: #0a0808;
 }
 
 .vid {
-  margin-top: 4.25%;
-  overflow: hidden;
+  margin-top: 1.75%;
+  height: 90%;
   border-radius: 10px;
+  background-color: #000;
 }
 
 .vid:hover {
@@ -162,8 +164,8 @@
 }
 
 .w-logo {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 15px;
 }
@@ -216,4 +218,32 @@
 
 .carousel {
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #lbl-l {
+    height: 25px;
+  }
+  #lbl-r {
+    height: 10px;
+  }
+  .label {
+    width: 300px;
+    height: 60px;
+  }
+  #lbl-title {
+    font-size: 15px;
+  }
+  #lbl-subtitle {
+    font-size: 11px;
+  }
+  .vid {
+    margin-top: 3%;
+    height: 240px;
+    width: 95%;
+  }
+  .yt-link {
+    height: 270px;
+    width: 100%;
+  }
 }

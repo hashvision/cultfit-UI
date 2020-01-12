@@ -18,7 +18,7 @@ export default () => {
           <img src="assets/curefit.svg" alt="cult" className="main-logo" />
         </div>
       </div>
-      <div className="slider" style={{ marginTop: "62.5px" }}>
+      <div className="slider">
         <Carousel list={list} transitionTime={500} />
       </div>
     </>

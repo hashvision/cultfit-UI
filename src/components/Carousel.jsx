@@ -15,7 +15,7 @@ export default ({ list = [], interval = 2000, transitionTime = 1500 }) => (
   >
     {list.map((ig, idx) => (
       <div key={idx}>
-        <img src={ig.src} alt={ig.alt} />
+        <img src={ig.src} alt={ig.alt} className="slide-img" />
       </div>
     ))}
   </Carousel>
